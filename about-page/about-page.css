@@ -1,11 +1,123 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+a{
+    text-decoration: none;
+}
+.container-one{
+    max-width: 1400px;
+    padding: 0 133px;
 
-
-
-
+}
+.container-two{
+    max-width: 1400px;
+    padding: 0 100px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.address ul li a{
+    font-size: 10px;
+    color:#E9ECF0;
+}
+.address i{
+    padding-right: 5px;
+}
+.address li{
+    padding-right: 30px;
+}
+.linkedin ul li a{
+    font-size: 10px;
+    color: #E9ECF0;
+}
+.linkedin li{
+    padding-left: 20px;
+}
+.top{
+    background-color: #022D5B;
+    padding-top: 8.5px;
+    padding-bottom: 8.5px;
+}
+.second-header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo img{
+    height: 16px;
+}
+.nav a{
+    color: #06325F;
+    font-size: 9.5px;
+    font-weight: 600;
+}
+.nav li{
+    padding-left: 25px;
+}
+.contact{
+    background-color: #F9646A;
+    text-align: center;
+    justify-content: center;
+    height: 36px;
+    width: 130px;
+    margin-left: 25px;
+    border-radius: 4px;
+}
+.contact a{
+    color: white;
+    padding-right: 20px;
+    font-weight: 900;
+}
 
 
 
