@@ -60,7 +60,7 @@ a{
 }
 .container-two{
     max-width: 1400px;
-    padding: 0 100px;
+    padding: 0 250px;
 }
 .flex{
     display: flex;
@@ -116,8 +116,210 @@ a{
 .contact a{
     color: white;
     padding-right: 20px;
+    font-size: 9.5px;
     font-weight: 900;
 }
+.about-hero{
+    background-image: url(../assets/hero/about_hero.jpg);
+    height: 200px;
+    background-size: cover;
+    justify-content: center;
+    margin-bottom: 140px;
+}
+.about-hero h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+}
+.wetrusted img{
+    height: 400px;
+    width: 100%;
+}
+.position{
+    position: relative;
+}
+.wetrusted{
+    width: 58%;
+}
+.trusted{
+    position: absolute;
+    left: 620px;
+    width: 30%;
+    height: 200px;
+    top: 99.5px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.trusted h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    color: #191D34;
+    line-height: 1.2;
+}
+.trusted p{
+    color: #617080;
+    line-height: 1.8;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+.learn {
+    margin-left: 0;
+}
+.team{
+    height: 500px;
+    background-color: #F6F9FE;
+}
+.team-one{
+    margin: 100px 0;
+    width: 31.5%;
+}
+.team-one img{
+    width: 100%;
+}
+.team-one h4{
+    font-weight: 900;
+    color: #191D34;
+    font-size: 16px;
+    margin: 20px 0;
+}
+.team-one p{
+    color: #798794;
+    line-height: 1.8;
+    font-size: 10px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+.team-one h2{
+    font-weight: 900;
+    color: #191D34;
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+.do{
+    padding: 30px;
+    
+
+}
+.for{
+    height: 280px;
+    border: 3px solid #F9646A ;
+    background-color: white;
+}
+.line{
+    height: 3px;
+    width: 75px;
+    background-color:  #F9646A;
+    margin-bottom: 18px;
+}
+.view-profile a{
+    font-size: 12px;
+    font-weight: 900;
+    color: #2C2F45;
+}
+.view{
+    font-size: 9px;
+}
+.testimonial{
+    height: 530px;
+}
+.left{
+    width: 15%;
+    color: #A8AAAB;
+}
+.middle{
+    width: 69%;
+    text-align: center;
+    padding-left: 0px;
+}
+.middle img{
+    height: 80px;
+    width: 80px;
+    padding-bottom: 30px;
+}
+.middle p{
+    font-size: 18px;
+    line-height: 1.7;
+    color: #191D34;
+    padding-bottom: 30px;
+}
+.star{
+    font-size: 11px;
+    color: #FBBA42;
+    margin-left: 2px;
+    padding-bottom: 20px;
+}
+.right{
+    width: 15%;
+    text-align: right;
+    color: #A8AAAB;
+}
+.testi{
+    padding-top: 100px;
+}
+.cliff{
+    justify-content: center;
+}
+.cliff h5{
+    font-size: 12px;
+    color: #506574;
+    font-weight: 900;
+}
+.cliff p{
+    font-size: 10px;
+    color: #959595;
+    padding-top: 30px;
+}
+.our h1{
+    font-size: 45px;
+    text-align: center;
+    font-weight: 900;
+    color: #191D34;
+}
+.recent{
+    background-color: white;
+}
+.team-two h4{
+    font-size: 13px;
+    line-height: 1.4;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.team-two p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.team-two{
+    background-color: #FCFDFF;
+}
+.audit{
+    color: #F98C93;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.request{
+    margin: 50px 0;
+    background-color: #022D5B;
+    height: 320px;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    border: 1px solid #24507E;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
