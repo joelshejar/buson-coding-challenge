@@ -304,16 +304,24 @@ a{
     background-color: #022D5B;
     height: 320px;
 }
-.form-control{
-    display: block;
-    width: 100%;
-    border: 1px solid #24507E;
+.footer{
+    margin: 70px 0;
 }
-
-
-
-
-
+.logo-two{
+    width: 28%;
+}
+.logo-two img{
+    height: 25px;
+}
+.company{
+    width: 20%;
+}
+.services{
+    width: 23%;
+}
+.touch{
+    width: 28%;
+}
 
 
 
