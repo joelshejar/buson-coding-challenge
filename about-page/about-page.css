@@ -300,24 +300,62 @@ a{
     padding-right: 20px;
 }
 .request{
-    margin: 50px 0;
+    margin-top: 50px;
     background-color: #022D5B;
     height: 320px;
 }
 .footer{
-    margin: 70px 0;
+    padding: 100px 0;
 }
 .logo-two{
     width: 28%;
 }
 .logo-two img{
     height: 25px;
+    padding-bottom: 30px;
+}
+.logo-two p{
+    font-size: 10px;
+    color: #8C929E;
+    line-height: 1.3;
+    padding-bottom: 30px;
+}
+.pin a{
+    color: black;
+    font-size: 13px;
 }
 .company{
     width: 20%;
 }
+.company h5{
+    color: #022D5B;
+    padding-top: 26px;
+    padding-bottom: 11px;
+    font-weight: 900;
+}
+.company li{
+    
+    padding: 5px 0;
+}
+.company a{
+    font-size: 10px;
+    color: #8C929E;
+}
 .services{
     width: 23%;
+}
+.services h5{
+    color: #022D5B;
+    padding-top: 26px;
+    padding-bottom: 11px;
+    font-weight: 900;
+}
+.services li{
+    padding: 5px 0;
+}
+.services a{
+    font-size: 10px;
+    color: #8C929E;
 }
 .touch{
     width: 28%;
