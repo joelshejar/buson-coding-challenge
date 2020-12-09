@@ -100,6 +100,7 @@ a{
     color: #06325F;
     font-size: 9.5px;
     font-weight: 600;
+    cursor: pointer;
 }
 .nav li{
     padding-left: 25px;
@@ -112,12 +113,14 @@ a{
     width: 130px;
     margin-left: 25px;
     border-radius: 4px;
+    color: white;
 }
 .contact a{
     color: white;
     padding-right: 20px;
     font-size: 9.5px;
     font-weight: 900;
+    
 }
 .about-hero{
     background-image: url(../assets/hero/about_hero.jpg);
@@ -359,6 +362,41 @@ a{
 }
 .touch{
     width: 28%;
+}
+.touch h5{
+    color: #022D5B;
+    padding-top: 26px;
+    padding-bottom: 11px;
+    font-weight: 900;
+}
+.pin{
+    font-size: 10px;
+    color: #8C929E;
+    padding: 15px 0;
+}
+.touch a{
+    font-size: 10px;
+    color: #8C929E;
+}
+.usa{
+    padding-bottom: 50px;
+    font-size: 10px;
+    color: #8C929E;
+    padding-top: 15px;
+}
+.line{
+    height: 1px;
+    width: 800px;
+    background-color: #8C929E;
+}
+.copyright{
+    text-align: center;
+    font-size: 10px;
+    color: #797e8a;
+    padding: 15px 0;
+}
+.heart{
+    color: #cf878e;
 }
 
 
