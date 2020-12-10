@@ -51,7 +51,7 @@ table {
     height: 200px;
     background-size: cover;
     justify-content: center;
-    margin-bottom: 140px;
+    
 }
 .cases-hero h1{
     font-size: 40px;
@@ -62,6 +62,37 @@ table {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.case-study{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: white;
+}
+.case-study h4{
+    font-size: 15px;
+    font-weight: 900;
+    color: #022D5B;
+    padding: 10px;
+}
+.case-study p{
+    font-size: 10px;
+    color: #8C929E;
+    padding: 10px;
+}
+.completed-case{
+    width: 32%;
+}
+.completed-case img{
+    width: 100%;
+}
+.article-two{
+    margin-top: 13px;
+
+}
+.case-section{
+    background-color: #F8FAFE;
+    padding: 110px 0;
 }
 
 
