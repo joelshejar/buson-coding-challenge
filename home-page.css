@@ -92,6 +92,12 @@ table {
 .home-trusted{
     padding: 90px 0;
 }
-
+.our-services i{
+    padding-top: 55px;
+    font-size: 30px;
+}
+.our-services p{
+    padding-bottom: 50px;
+}
 
 

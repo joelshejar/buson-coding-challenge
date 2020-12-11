@@ -442,6 +442,13 @@ select{
 ::placeholder { 
     color:    #797e8a;
  }
+ .our-services i{
+    padding-top: 55px;
+    font-size: 30px;
+}
+.our-services p{
+    padding-bottom: 50px;
+}
 
 
 
