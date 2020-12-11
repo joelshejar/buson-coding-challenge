@@ -74,13 +74,14 @@ table {
 }
 .contact-btn{
 	margin-left: 0px;
-	border-radius: 0px;
+	border-radius: 4px;
 	background-color: white;
 	text-align: center;
     justify-content: center;
     height: 36px;
     width: 110px;
     background-color: #F9646A;
+
 }
 .contact-btn a{
 	color: white;
@@ -88,7 +89,9 @@ table {
     font-size: 9.5px;
     font-weight: 900;
 }
-
+.home-trusted{
+    padding: 90px 0;
+}
 
 
 
