@@ -65,3 +65,57 @@ table {
     justify-content: center;
     align-items: center;
 }
+.blog-section{
+    width: 68%;
+    margin-bottom: 30px;
+    box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.1);
+}
+.blog-section img{
+    width: 100%;
+}
+.blog-date{
+    position: absolute;
+    bottom: 160px;
+    left: 26px;
+    height: 70px;
+    width: 65px;
+    background-color: #F9646A;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+}
+.blog-date h1{
+    font-size: 23px;
+    padding: 10px 0;
+    font-weight: 900;
+}
+.blog-date p{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.blog-exp{
+    padding: 17px;
+}
+.blog-exp h1{
+    font-size: 17px;
+    color: #022D5B;
+    font-weight: 900;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.blog-exp p{
+    font-size: 10px;
+    color: #617080;
+    line-height: 1.8;
+    padding-bottom: 15px;
+}
+.blog-comments{
+    font-size: 10px;
+    color:  #617080;
+    padding-bottom: 15px;
+    
+}
+
+
+
+
