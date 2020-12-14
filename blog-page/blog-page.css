@@ -66,9 +66,12 @@ table {
     align-items: center;
 }
 .blog-section{
-    width: 68%;
+    width: 100%;
     margin-bottom: 30px;
     box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.1);
+}
+.blog-side{
+    width: 26%;
 }
 .blog-section img{
     width: 100%;
@@ -113,9 +116,142 @@ table {
     font-size: 10px;
     color:  #617080;
     padding-bottom: 15px;
-    
+}
+.flex-blog{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.blog-side{
+    padding-left: 0px;
+    margin-left: 40px;
+    width: 33%;
 }
 
+.blog-aside{
+    margin-right: 0px;
+    width: 60%;
+}
+.blog-form{
+    height:26px;
+    font-size: 10px;
+    width: 85%;
+    border: none;
+    border: 1px solid #cbcecf;
+}
+.form{
+    height:26px;
+    font-size: 10px;
+    width: 99%;
+    border: none;
+    border: 1px solid #cbcecf;
+}
+.search{
+    height: 30px;
+    width: 15%;
+    background-color: #F9646A;
+    color: white;
 
+}
+.flex-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-btn{
+    margin-left: 0px;
+    margin-top: 10px;
+	border-radius: 0px;
+	background-color: white;
+	text-align: center;
+    justify-content: center;
+    height: 35px;
+    width: 99%;
+    border: 1px solid  #e28a8d;
+}
+.contact-bttn{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+	border-radius: 0px;
+	background-color: white;
+	text-align: center;
+    justify-content: center;
+    margin-right: 5px;
+    border: 1px solid  #d5dde6;
+}
+.contact-bttn a{
+    color: #617080;
+	padding: 7px 12px;
+    font-size: 8px;
+    font-weight: 900;
+}
+.contact-btn a{
+	color: #F9646A;
+	padding: 0 25px;
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+.side-one{
+    background-color: #f6f7f8;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.category h1{
+    font-size: 15px;
+    font-weight: 900;
+    color: #202542;
+    padding-bottom: 10px;
+}
+.blog-line{
+    height: 1px;
+    background-color: rgb(230, 225, 225);
+}
+.category{
+    padding-bottom: 20px;
+}
+.side-one p{
+    font-size: 13px;
+    color: #617080;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.blog-recent{
+    padding-left: 10px;
+    
 
-
+}
+.blog-recent h1{
+    font-size: 11px;
+    font-weight: 900;
+    color: #202542;
+    padding-bottom: 0px;
+}
+.blog-recent p{
+    font-size: 10px;
+    color: #617080;
+}
+.blog-img{
+    padding-bottom: 10px;
+}
+.insta{
+    width: 31%;
+}
+.insta img{
+    width: 100%;
+}
+.feeds{
+    margin-top: 3px;
+}
+.page-left{
+    height: 25px;
+    width: 25px;
+    border: 1px solid #cbcecf;
+    color: #617080;
+    margin-left: 5px;
+}
+.blog-nav{
+    margin: 40px 0;
+}
