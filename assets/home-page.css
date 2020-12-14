@@ -51,7 +51,7 @@ table {
     flex-direction: column;
 }
 .cases-hero{
-    background-image: url(./assets/hero/h1_hero.jpg);
+    background-image: url(./hero/h1_hero.jpg);
     height: 600px;
     background-size: cover;
     justify-content: center;   
