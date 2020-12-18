@@ -87,7 +87,7 @@ table {
     color: white;
     border-radius: 4px;
 }
-.blog-date h1{
+.blog-date h4{
     font-size: 23px;
     padding: 10px 0;
     font-weight: 900;
@@ -99,7 +99,7 @@ table {
 .blog-exp{
     padding: 17px;
 }
-.blog-exp h1{
+.blog-exp h4{
     font-size: 17px;
     color: #022D5B;
     font-weight: 900;
@@ -177,6 +177,10 @@ table {
     margin-right: 5px;
     border: 1px solid  #d5dde6;
 }
+.contact-bttn a:hover{
+    color: #3d4f63;
+    background-color: rgb(218, 218, 218);
+}
 .contact-btn a{
 	color: #F9646A;
 	padding: 0;
@@ -192,14 +196,18 @@ table {
     padding: 13px 0px;
     width: 100%;
     border: 1px solid  #e28a8d;
-    
+}
+.contact-btn a:hover{
+    color: white;
+    background-color: #F9646A;
+	
 }
 .side-one{
     background-color: #f6f7f8;
     padding: 20px;
     margin-bottom: 20px;
 }
-.category h1{
+.category h4{
     font-size: 15px;
     font-weight: 900;
     color: #202542;
@@ -223,7 +231,7 @@ table {
     
 
 }
-.blog-recent h1{
+.blog-recent h4{
     font-size: 11px;
     font-weight: 900;
     color: #202542;
